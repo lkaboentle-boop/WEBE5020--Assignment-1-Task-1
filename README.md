@@ -41,6 +41,10 @@ This is a Website development for a small bakery for Sweet Creations By Soso own
 •	Week 5: Final improvements, responsive design, final review and documentation.
 •	Week 6: Submission and Github update
 
+**Sitemap**
+<img width="1352" height="767" alt="Screenshot 2026-08-30 210814" src="https://github.com/user-attachments/assets/f92acc15-45a2-4403-9158-557b0dff35a3" />
+
+
 
 
 
