@@ -1,87 +1,201 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <header>
         <meta charset="UTF-8">
 
         <title> Sweet Crteations By Soso | Products</title>
 
-        <link rel="stylesheet" href="css/_styles.css">
-    </head>
+        <link rel="stylesheet" href="css/styles.css">
+    </header>
 
     <body>
         <header> 
-            <div class="Logo">
-                <img src="_images/_logo.jpg" height="150" weight="100" alt="Sweet Creations By Soso Logo">
+            <nav>
+            <div class="logo">
+                <img src="_images/_logo.jpg" height="150" weight="100" alt="Sweet Creations By Soso Logo"> </div>
                 <h1>Sweet Creations By Soso </h1>
+                <p> Homemade baked goods made with love</p>
             </div>
+        </nav>
+
+        <div>
+        <button class="cart">
+              Cart(0) 🛒
+        </button>
+        </div>
 
             <nav>
                 <a href="index.html"> Home</a> |
-                <a href="about.html"> About Us</a> |
+                <a href="about.html"> About</a> |
                 <a href="products.html"> Products</a> |
                 <a href="enquiry.html"> Enquiry</a> |
-                <a href="contact.html"> Contact</a>
+                <a href="contact.html"> Contact</a> |
+                <a href="profile.html">Profile</a>
             </nav>
         </header>
 
-        <main>
+        <main class="products-section">
 
-            <section class="products"> 
-                <h2> Our Products</h2>
-
+            <section class="products-card">
+                <h2> Our Products</h2> 
                 <!-- Jam Tarts -->
+                
+                <div class="product-grid">
+
                  <article class="products">
-                    <p> Delicious homemade jam tarts with a sweet jam filling.</p>
-                    
+                   
+                    <div class="product-title">
                     <h3> Apricot Jam Tarts </h3>
-                     <img src="_images/Jamtertjies _ Eggless Jam Tarts - The Big Tasty Bite.jpg" alt="Homemade Apricot jam tarts.">
+                    <img src="_images/Jamtertjies _ Eggless Jam Tarts - The Big Tasty Bite.jpg" alt="Homemade Apricot jam tarts.">
 
-                    <p><strong>Price: R15.00 each pack</strong></p>
+                    <div class="product-info">
 
+                        <div class="product-title">
+                            <span class= "price"><strong>Price: R15.00 each pack</strong></span>
+                    </div>
+
+                    <p>
+                       Delicious homemade jam tarts with a sweet apricot jam filling. 
+                    </p>
+
+                    <a href="cart.html" class="button">
+                        Order
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="product-card">
+                    <div class="product-title">
                     <h3>Raspberry Jam Tart</h3>
-                     <img src="_images/Syltrutor_ Swedish Jam Bars.jpg" alt="Homemade Raspberry jam tarts.">
+                    <img src="_images/Syltrutor_ Swedish Jam Bars.jpg" alt="Homemade Raspberry jam tarts.">
+ 
+                     <span class="price"><strong>Price: R15.00 each pack</strong></span>
 
-                     <p><strong>Price: R15.00 each pack</strong></p>
+                     </div>
 
+                     
 
-
+                     <a href="cart.html" class="button">
+                        Order
+                     </a>
+                    </div>
 
                  </article>
 
                  <!-- Biscuits -->
-                  <article class="products">
+                  <article class="products-card">
+                    <div class="product-title">
                     
-                    <p> Freshly baked, crunchy and tasty homemade biscuits.</p>
+                    
 
                     <h3>Rainbow Biscuit</h3>
                     <img src="_images/_rainbowbiscuits.jpg" alt="Homemade Rainbow Design Biscuit">
+                    
+                    <span class="price"><strong>Price: R12.00 each pack</strong></span>
+                   
+                    </div>
 
-                    <p><strong>Price: R12.00 each pack</strong></p>
+                    <p>
+                        Freshly baked, crunchy and tasty homemade rainbow biscuits.
+                    </p>
 
+                    <a href="cart.html" class="button">
+                        Order
+                    </a>
+                </div>
+                    </article>
+
+                  
+                    <article class="products">
+                        <div class="products-title">
+                
                     <h3>Strippy Biscuit</h3>
-                     <img src="_images/stripybiscuits.jpg" alt="Homemade Strippy Design Biscuit">
+                    <img src="_images/stripybiscuits.jpg" alt="Homemade Strippy Design Biscuit">
+                    <div class="product-info">
 
-                     <p><strong>Price: R12.00 each pack </strong></p>
+                        
+                     <span class="price"><strong>Price: R12.00 each pack </strong></span>
+                     
+                     </div>
 
-                     <h3>Heart Biscuit</h3>
-                      <img src="_images/_heartbiscuits.jpg" alt="Homemade Heart Design Biscuit">
+                     <p>
+                        Freshly baked, crunchy and tasty homemade strippy biscuits
+                     </p>
 
-                      <p><strong>Price: R15 each pack</strong></p>
+                     <a href="cart.html" class="button">
+                        Order
+                     </a>
 
-                      <h3>LongLay Biscuit</h3>
-                       <img src="_images/_longbiscuits.jpg" alt="Homemade LongLay Design Biscuit">
-
-                       <p><strong>Price: R10 each pack</strong></p>
+                     </div>
+                     </article>
 
                     
+                    <article class="products-card">
+                        <div class="product-title">
+                     <h3>Heart Biscuit</h3>
 
+                    <img src="_images/_heartbiscuits.jpg" alt="Homemade Heart Design Biscuit">
+                   
+                      <span class="price"><strong>Price: R15 each pack</strong></span>
+                      
+                      </div>
 
-                  </article>
+                      <P>
+                        Freshly baked, crunchy and tasty homemade heart biscuits.
+                      </P>
+
+                      <a href="cart.html" class="button">
+                        Order
+                      </a>
+                    </div>
+                    </article>
+
+                    <article class="products-card">
+                        <div class="product-title">
+
+                    <h3>LongLay Biscuit</h3>
+                    <img src="_images/_longbiscuits.jpg" alt="Homemade LongLay Design Biscuit">
+                    
+                    <span class="price"><strong>Price: R10 each pack</strong></span>
+                    
+                    </div>
+
+                    <p> 
+                        Freshly baked, crunchy and tasty homemade LongLay Biscuits.
+                    </p>
+
+                    <a href="cart.html" class="button">
+                        Order
+                    </a>
+                  </div>
+                </article>
             </section>
         </main>
 
-        <footer>
+       <footer>
+            <div class="footer-container">
+
+                <div>
+                    <h3> Sweet Creations By Soso</h3>
+
+                    <p>
+                        Baking sweet memories for families and events across Rustenburg. Taste the love in every bite of our homemade jam tarts and biscuits.
+                    </p>
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4> Get In Touch</h4>
+
+                    <p> ☎️ 073 496 3215</p>
+                    <p> 📧 info@sweetcreationsbysoso.co.za</p>
+                    <p> 📍 Rustenburg, South Africa</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
             <p>Sweet Creations By Soso | Kagiso Moruti &copy; 2026 All Right Reserved.</p>
+            </div>
         </footer>
     </body>
 </html>
